@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Electricista en Cuipán y San Blas | Ricardo Aldrovandi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description" content="Electricista en Cuipán y San Blas de los Sauces, La Rioja. Instalaciones, reparaciones y urgencias eléctricas. Atención rápida, trabajos garantizados y presupuesto sin compromiso.">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+
+  <style>
+    :root {
+      --primary: #f5b301;
+      --dark: #111;
+      --light: #fff;
+      --gray: #1e1e1e;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: var(--dark);
+      color: var(--light);
+    }
+
+    /* HEADER FIJO */
+    .topbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(0,0,0,0.85);
+      backdrop-filter: blur(6px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 18px;
+      z-index: 2000;
+    }
+
+    .topbar img {
+      width: 55px;
+    }
+
+    .topbar a {
+      text-decoration: none;
+    }
+
+    .topbar .btn-wsp {
+      background: #25d366;
+      color: #fff;
+      padding: 10px 14px;
+      border-radius: 10px;
+      font-weight: bold;
+      font-size: 0.95rem;
+    }
+
+    /* HERO */
+    .hero {
+      min-height: 100vh;
+      background:
+        linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+        url("img/electricista.jpg");
+      background-size: cover;
+      background-position: center;
+      padding: 120px 20px 60px;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 12px;
+      padding-top: 200px; /* mueve solo el contenido hacia abajo */
+
+
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 550px;
+      margin: auto;
+      opacity: 0.95;
+    }
+
+    section {
+      padding: 30px 20px;
+    }
+
+    .card {
+      background: var(--gray);
+      border-radius: 18px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+
+    .card h2 {
+      color: var(--primary);
+      text-align: center;
+      margin-bottom: 18px;
+    }
+
+    /* BENEFICIOS */
+    .benefits p {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    /* SERVICIOS */
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .service {
+      background: #2a2a2a;
+      border-radius: 14px;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .service img {
+      width: 100%;
+      height: 140px;
+      object-fit: cover;
+    }
+
+    .service p {
+      padding: 14px;
+    }
+
+    /* BOTONES */
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      margin-top: 22px;
+    }
+
+    .btn {
+      padding: 15px;
+      font-size: 1.1rem;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      font-weight: bold;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .btn-call {
+      background: var(--primary);
+      color: #000;
+    }
+
+    .btn-whatsapp {
+      background: #25d366;
+      color: #fff;
+    }
+
+    /* UBICACION */
+    .location {
+      text-align: center;
+      line-height: 1.6;
+    }
+
+    /* TARJETA DIGITAL */
+    .qr-box {
+      text-align: center;
+    }
+
+    .qr-box img {
+      width: 180px;
+      margin: 15px 0;
+      background: #fff;
+      padding: 10px;
+      border-radius: 12px;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #0b0b0b;
+      text-align: center;
+      padding: 25px 15px;
+      font-size: 0.9rem;
+      opacity: 0.85;
+    }
+
+    footer img {
+      width: 70px;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 {
+        font-size: 2.1rem;
+      }
+    }
+  </style>
+</head>
+
+<body id="top">
+
+  <!-- HEADER FIJO -->
+  <div class="topbar">
+    <a href="#top">
+      <img src="img/logo.jpg" alt="Electricista Ricardo Aldrovandi">
+    </a>
+
+    <a class="btn-wsp" target="_blank"
+       href="https://wa.me/5493804600760?text=Hola%20Ricardo,%20necesito%20un%20electricista">
+      WhatsApp
+    </a>
+  </div>
+
+  <!-- prueba -->
+  <!-- prueba -->
+
+
+
+  <!-- HERO -->
+  <header class="hero">
+    <h1>Ricardo Aldrovandi</h1>
+    <p>Electricista domiciliario en Cuipán y San Blas de los Sauces · Atención rápida y trabajos garantizados</p>
+  </header>
+
+  <!-- BENEFICIOS -->
+  <section class="card benefits">
+    <h2>¿Por qué elegirme?</h2>
+    <p>✔ Electricista local de confianza</p>
+    <p>✔ Presupuesto sin compromiso</p>
+    <p>✔ Atención directa por WhatsApp</p>
+    <p>✔ Trabajos prolijos y seguros</p>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="card">
+    <h2>Servicios Eléctricos</h2>
+
+    <div class="services">
+      <div class="service">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiTeJ__ZTpu7aBWznoJlUEhG0MLnsdZYL_Mg&s">
+        <p>🔌 Instalaciones eléctricas</p>
+      </div>
+
+      <div class="service">
+        <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da">
+        <p>💡 Reparaciones y mantenimiento</p>
+      </div>
+
+      <div class="service">
+        <img src="https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147494123/images/ee888-b37f-1d1-ae18-c65fa6d65a57_Tablero_electrico_industrial.webp">
+        <p>⚡ Tableros y luminarias</p>
+      </div>
+
+      <div class="service">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMLylREBVQpfdNobzNGVolnCEqDRu6MBSLKw&s">
+        <p>🏠 Obras y refacciones</p>
+      </div>
+    </div>
+
+    <div class="buttons">
+      <a class="btn btn-call" href="tel:3804600760">
+        📞 Llamar ahora
+      </a>
+
+      <a class="btn btn-whatsapp" target="_blank"
+         href="https://wa.me/5493804600760?text=Hola%20Ricardo,%20necesito%20un%20presupuesto%20eléctrico">
+        💬 Presupuesto por WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- UBICACION -->
+  <section class="card location">
+    <h2>Zona de trabajo</h2>
+    <p>
+      📍 Cuipán – San Blas de los Sauces<br>
+      La Rioja
+    </p>
+  </section>
+
+  <!-- TARJETA DIGITAL -->
+  <section class="card qr-box">
+    <h2>Tarjeta digital</h2>
+    <p>Escaneá el código y contactame directo por WhatsApp</p>
+
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://wa.me/5493804600760"
+         alt="QR WhatsApp Electricista">
+
+    <p>📞 3804 600760</p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="img/logo.jpg" alt="Logo Electricista">
+    <p>Electricista Ricardo Aldrovandi</p>
+    <p>Cuipán · San Blas de los Sauces · La Rioja</p>
+  </footer>
+
+</body>
+</html>
